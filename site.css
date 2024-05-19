@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(imagens-para-fundo-de-tela_easy-resize.com.jpg) center center fixed; /* Substitua 'sua-imagem-de-fundo.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin:  50px auto;
+    background-color: rgba(71, 71, 71, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size:  1.5em;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    display: block;
+}
+
+label {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #1d1d1d; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #f0ca45; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e1b037;}
+
+.recover-link {
+    text-align: center;
+    margin-top: 10px;
+    color: #1877f2; 
+    text-decoration: none;
+}
+
+.recover-link:hover {
+    text-decoration: underline;
+}
